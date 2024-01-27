@@ -3,6 +3,8 @@
         <title>Hello World</title>
     </head>
 
+    <link rel="stylesheet" href="styles/index.css" />
+
     <!-- LOCAL STYLE -->
     <style>
         /* comment in css tag or file */
@@ -16,6 +18,13 @@
             width: 100px;
             color: gray;
         }
+
+        .local_p{
+            background-color: aqua;
+            width: 10%;
+            color: black;
+        }
+
     </style>
 
     <!-- --------------------- -->
@@ -31,6 +40,8 @@
         console.error('error message');
 
         window.alert('Message to user: Hello World');
+        var name = window.prompt("Write your name:");
+        window.alert('Hello ' + name + '!');
 
     </script>
 
@@ -39,9 +50,10 @@
     <body>
 
         <p>Use local style</p>
+        <p class="local_p">Use local style</p>
         <p>Use global style</p>
         <hr /> <!-- horizontal line -->
-        <div>
+        <div id="container">
             <!--
 
                 "< ! --   start comment in html file and -- >" end comment in html file
@@ -51,6 +63,14 @@
                 div = container box 
             -->
             <p>Long description<br />with special tags</p>
+        </div>
+
+        <hr />
+        <div>
+            <script>document.write(5 + 6)</script>
+            <p>javascript text: </p>
+            <p id="text_from_javascript">....</p>
+            <script src="scripts/index.js"></script>
         </div>
         
     </body>
