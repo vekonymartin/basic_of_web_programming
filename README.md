@@ -10,7 +10,7 @@ Use an external JavaScript file to show an alert with the same message.
 > [!NOTE]
 > [w3school's web page](https://www.w3schools.com/)
 
-### Interactive Button
+### Interactive Button and HTML elements
 
 Create a button in HTML.
 Write JavaScript code that changes the button's text when clicked.

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <head>
+        <title>Interactive button</title>
+
+        <link rel="stylesheet" href="styles/index.css" />
+    </head>
+
+    <body>
+        <script src="scripts/index.js"></script>
+
+        <div class="button-container">
+            <div class="button-element">
+                <span>Simple message on console</span>
+                <button onclick="messageOnConsole()">message on console</button>
+            </div>
+            <div class="button-element">
+                <span>Simple message with popup window</span>
+                <button onclick="messageWithPopup()">message with window</button>
+            </div>
+            <div class="button-element">
+                <span>Simple message on page</span>
+                <button onclick="messageOnPage()">message on page</button>
+            </div>
+        </div>
+        <hr />
+        <span id="message">...</span>
+        <br />
+        <br />
+        <div class="picture-container">
+            <img class="img1" id="img1" src="" alt="image" onclick="changeClassWithClick()">
+            <img src="" alt="image">
+            <img src="" alt="image">
+        </div>
+
+        <hr />
+        <button onclick="showWindow()">show box</button>
+
+        <div id="box" class="box">
+            <div class="close-btn"><p>X</p></div>
+        </div>
+    </body>
+
+</html>

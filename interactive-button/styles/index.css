@@ -1,0 +1,35 @@
+img {
+    width: 10rem;
+    height: 10rem;
+    background-size: cover;
+    border: 1px solid #000;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.img1 {
+    background-color: red;
+}
+
+.img1-after{
+    background-color: blue;
+}
+
+.box {
+    width: 10rem;
+    height: 10rem;
+    background-color: antiquewhite;
+}
+
+.close-btn{
+    text-align: center;
+    justify-content: center;
+    margin-top: 2px;
+    border-bottom: 1px solid #000;
+}
+
+.close-btn:hover{
+    cursor: pointer;
+}
